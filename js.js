@@ -3,7 +3,7 @@
 jQuery(function($) {
   function bygi_applyPhoneMask(context = document) {
     const $inputs = $('input[type="tel"]', context);
-    $inputs.mask("+7(999)999-99-99", { placeholder: "+7(___)___-__-__" });
+    $inputs.mask("+7(999)999-99-99", { placeholder: "+7(___)-___-__-__" });
 
     // Ставим курсор сразу после "+7("
     $inputs.on('click focus', function() {
